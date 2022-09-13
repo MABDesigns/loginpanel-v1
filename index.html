@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/javascript.js"></script> 
+        </head>
+<body>
+    <div class="login-box"class="c-form js-form">
+        <img style="width: 60px; height: 40px;" src="images/test.png">
+        <center>
+            <br>
+            <img id="avatarId" src="images/avatar.png" class="rotate_01" alt="avatar">
+            </center>
+            <br>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="" >
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="">
+            <label>Password</label>
+          </div>
+          <ul class="tg-list">
+          <li class="tg-list-item">
+            <input class="tgl tgl-skewed" id="cb3" type="checkbox"/>
+            <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="cb3"></label>
+          </li>
+          <li><h4>&nbsp;&nbsp;Remember Me</h4></li>
+          </ul>
+          <a id="button2" href="#" type="submit" onclick='mta.triggerEvent("onPressLogin", document.getElementById("usernameInput").value, document.getElementById("password").value);'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+          <a  id="button1" href="#" type="submit" onclick='mta.triggerEvent("onPressLogin", document.getElementById("usernameInput").value, document.getElementById("password").value);'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            As A Guest
+          </a>
+          
+          <br>
+          <a id="register" href="#">Need account ?, register at m4bdesigns.xyz</a> 
+        </form>
+      </div>
+</body>
+</html>
